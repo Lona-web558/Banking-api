@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/api";
+const API = "https://banking-api-45ef.onrender.com";
 
 const user = JSON.parse(localStorage.getItem("user"));
 
