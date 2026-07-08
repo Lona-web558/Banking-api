@@ -1,6 +1,10 @@
-const API = "https://banking-api-45ef.onrender.com";
+const API = "/api";
 
 const user = JSON.parse(localStorage.getItem("user"));
+
+if (!user) {
+    window.location.href = "login.html";
+}
 
 document.getElementById("username").innerHTML = user.fullName;
 
